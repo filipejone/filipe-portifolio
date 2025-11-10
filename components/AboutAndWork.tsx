@@ -44,13 +44,13 @@ const projects: Project[] = [
   },
   {
     title: 'E-mail Marketing',
-    description: 'Aplicação interativa para aprendizado de inglês com reconhecimento de voz e IA generativa para avaliar pronúncia, criar diálogos e personalizar o conteúdo conforme o nível do utilizador.',
+    description: 'Plataforma de e-mail marketing desenvolvida com FastAPI e React, permitindo criação, envio e análise de campanhas. Inclui funcionalidades de segmentação de público, templates personalizáveis e relatórios detalhados de desempenho.',
     image: 'assets/email.png',
     tags: ['TypeScript', 'React', 'PostgreSQL', 'FastAPI', 'Python'],
   },
   {
     title: 'Sistema de Automação Industrial',
-    description: 'Ferramenta móvel para inspeção de sistemas elétricos em campo, com registo fotográfico, georreferenciação e checklists. Integrado a QGIS e InfluxDB para análise de dados e geração de relatórios.',
+    description: 'Sistema de automação industrial para monitoramento e controle de processos em tempo real. Integra sensores, CLPs e IoT com backend em FastAPI e dashboard em React para supervisão e análise de desempenho.',
     image: 'assets/syncore.png',
     tags: ['TypeScript', 'React', 'PostgreSQL', 'InfluxDB', 'FastAPI', 'Python', 'MQTT', 'ESP32'],
   },

@@ -1,4 +1,7 @@
 import React from 'react';
+// 1. Importe a imagem a partir do caminho relativo correto
+// (Considerando que Header.tsx está em 'components' e a imagem em 'assets')
+import filipeImage from '../assets/filipe.png';
 
 const Header: React.FC = () => {
   return (
@@ -6,7 +9,8 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 py-20 lg:py-32">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 text-center md:text-left">
           <img
-            src="assets/filipe.png"
+            // 2. Use a variável que você importou aqui
+            src={filipeImage}
             alt="Filipe Jone"
             className="w-40 h-40 md:w-48 md:h-48 rounded-2xl shadow-lg border-4 border-slate-500 object-cover"
           />
