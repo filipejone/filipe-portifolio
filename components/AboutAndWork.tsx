@@ -2,8 +2,16 @@ import React from 'react';
 import type { Project } from '../types';
 import { CheckCircleIcon } from './icons/CheckCircleIcon';
 
+// 1. Importe todas as imagens dos projetos aqui no topo
+import irrigaImage from '../assets/irriga.png';
+import homeImage from '../assets/home.png';
+import emailImage from '../assets/email.png';
+import syncoreImage from '../assets/syncore.png';
+
+
 const areas = [
-  {
+  // ... (sem alterações aqui)
+   {
     title: 'Engenharia Electrotécnica',
     description: 'Desenvolvimento de projetos elétricos, sistemas de automação industrial, e monitoramento de sistemas de energia. Experiência em análise de qualidade de energia, optimização de consumo e integração de sensores e relés inteligentes em sistemas SCADA e IoT.',
   },
@@ -29,36 +37,37 @@ const areas = [
   },
 ];
 
+// 2. Substitua os caminhos em string pelas variáveis importadas
 const projects: Project[] = [
   {
     title: 'Sistema de Irrigação Inteligente',
     description: 'Sistema automatizado de irrigação baseado em IoT e Machine Learning, que ajusta o uso de água conforme dados de sensores e previsão meteorológica, utilizando ESP32, MQTT e Grafana para monitoramento remoto.',
-    image: 'assets/irriga.png',
+    image: irrigaImage, // Alterado
     tags: ['TypeScript', 'React', 'PostgreSQL', 'InfluxDB', 'FastAPI', 'Python', 'MQTT', 'ESP32'],
   },
   {
     title: 'Home Assist',
     description: 'Assistente residencial para controle de iluminação, segurança e consumo de energia. Combina hardware customizado e um app em Flutter com API em Python (FastAPI) para automação e monitoramento em tempo real.',
-    image: 'assets/home.png',
+    image: homeImage, // Alterado
     tags: ['TypeScript', 'React', 'PostgreSQL', 'InfluxDB', 'FastAPI', 'Python', 'MQTT','ESP32'],
   },
   {
     title: 'E-mail Marketing',
     description: 'Plataforma de e-mail marketing desenvolvida com FastAPI e React, permitindo criação, envio e análise de campanhas. Inclui funcionalidades de segmentação de público, templates personalizáveis e relatórios detalhados de desempenho.',
-    image: 'assets/email.png',
+    image: emailImage, // Alterado
     tags: ['TypeScript', 'React', 'PostgreSQL', 'FastAPI', 'Python'],
   },
   {
     title: 'Sistema de Automação Industrial',
     description: 'Sistema de automação industrial para monitoramento e controle de processos em tempo real. Integra sensores, CLPs e IoT com backend em FastAPI e dashboard em React para supervisão e análise de desempenho.',
-    image: 'assets/syncore.png',
+    image: syncoreImage, // Alterado
     tags: ['TypeScript', 'React', 'PostgreSQL', 'InfluxDB', 'FastAPI', 'Python', 'MQTT', 'ESP32'],
   },
-
 ];
 
 const AboutAndWork: React.FC = () => {
   return (
+    // ... (o resto do seu código JSX não precisa de nenhuma alteração)
     <>
       {/* About Me Section */}
       <section id="about" className="bg-white py-20 lg:py-24">
