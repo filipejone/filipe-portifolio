@@ -79,7 +79,7 @@ const AboutAndWork: React.FC = () => {
                   Sou Filipe Jone, Engenheiro Electrotécnico e Desenvolvedor de Software, movido pela curiosidade e pelo desejo de criar soluções que conectam o mundo físico ao digital. Encontrei na tecnologia não apenas uma profissão, mas uma forma de resolver problemas reais e impulsionar a inovação em engenharia, energia e conectividade.
                 </p>
                 <p>
-                  Minha formação em Engenharia Electrotécnica deu-me uma base sólida em sistemas elétricos, automação e eletrónica. Com o tempo, percebi que muitos desafios de engenharia podem ser resolvidos com software — e foi assim que mergulhei no desenvolvimento de aplicações inteligentes com Python, Java, Dart, Flutter e FastAPI.
+                  Minha formação em Engenharia Electrotécnica deu-me uma base sólida em sistemas elétricos, automação e eletrónica. Com o tempo, percebi que muitos desafios de engenharia podem ser resolvidos com software e foi assim que mergulhei no desenvolvimento de aplicações inteligentes com Python, Java, Dart, Flutter e FastAPI.
                 </p>
                 <p>
                   Atuo na criação de sistemas integrados que unem hardware, sensores e software para gerar dados e eficiência. Tenho experiência em IoT, design de PCB, sistemas elétricos industriais e monitoramento em tempo real com InfluxDB e Grafana.
